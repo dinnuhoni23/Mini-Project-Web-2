@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap");
+
+:root {
+    --color1: #fffffe;
+    --color2: #a7a9be;
+}
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+
+section {
+  padding: 60px 0;
+  padding-top: 100vh;
+}
+
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #34b7a7;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #555555;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding-bottom: 10px;
+}
+
+.about .content ul i {
+  font-size: 20px;
+  padding-right: 2px;
+  color: #34b7a7;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+  
+/* ========== BAGIAN PENDIDIKAN ========== */
+
+  .background {
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(27, 231, 231, 0.442);
+  }
+  
+  .date {
+    font-style: italic;
+    color: #8baeb3;
+    text-align: left;
+  }
+  
+  .pendidikan {
+    color: var(--warna1);
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 10rem;
+  }
+  
+  .sub_judul {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+  }
+  
+  .sub_judul span {
+    color: #97e2ff;
+  }
+  
+  .wadah {
+    padding: 30px;
+  }
+  
+  .daftar_Pendidikan {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 600px));
+    grid-gap: 40px;
+  }
+  
+  .daftar_Pendidikan div {
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-radius: 20px;
+    border-right: 10px;
+    transition: background .5s, transform .5s;
+    box-shadow: 1px 1px 20px var(--color1), 1px 1px 30px var(--color2);
+  }
+  
+  .daftar_Pendidikan i {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .daftar_Pendidikan div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .daftar_Pendidikan div a {
+    text-decoration: none;
+    color: var(--color2);
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  
+  .daftar_Pendidikan div:hover {
+    transform: translateY(-10px);
+  }
+
+
+  
+/*----------------- Footer ------------------------*/
+#footer {
+  background: #e9e8e6;
+  padding: 30px 0;
+  color: #222222;
+  font-size: 14px;
+  text-align: center;
+}
